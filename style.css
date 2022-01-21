@@ -1,0 +1,98 @@
+header {
+    background-color: rgb(15 127 15);
+    padding: 1px;
+}
+
+h1 {
+    margin-left: 530px;
+    color: white;
+    font-size: 64px;
+}
+
+/*main div*/
+.div0 {
+    border: 3px solid none;
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+/*header div*/
+.divlogo {
+    display: flex;
+}
+
+/*bild på rögle logga*/
+.logo {
+    max-width: 10%;
+}
+
+/*div för att få borders brevid varandra*/
+.div1 {
+    display: flex;
+
+}
+
+/* div för två borders*/
+.div2 {
+    border: 3px none;
+    width: 50%;
+    margin: 3px;
+}
+
+
+/* bild från matchen*/
+.bild1 {
+    max-width: 100%;
+}
+
+/* navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38, 117, 55);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.resultat {
+    text-align: center;
+
+}
+
+/*målskytt*/
+dd {
+    text-align: center;
+}
+
+/*mål*/
+dt {
+    margin-left: 70px;
+    padding-top: 20px;
+}
+
+/* mail input*/
+fieldset {
+    border-style: hidden;
+}
+
+.mail {
+    margin-left: 13px;
+}
